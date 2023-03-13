@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета выявления факторов риска развития заболеваний</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <header>
+    <div class="container">
+        <h1>Анкета</h1>
+        <p>Выявления факторов риска развития неинфекционных заболеваний сотрудника ГУЗ «ГГКБ 3</p>
+        <div >
+        </div>
+    </header>
+    
+    <main>
+
+      <section class="questions">
+        <div class="container">
+
+            <div class="question">
+              <span>Отделение:</span>
+              <select name="branch" id="branch">
+                  <option>Пункт 1</option>
+                  <option>Пункт 2</option>
+              </select>
+              <hr>
+            </div>
+
+            <div class="question">
+              <p>Фамилия, собственное имя, отчество (если таковое имеется):</p>
+              <input type="text" id="FIO">
+              <hr>
+            </div>
+
+            <div class="question">
+              <p>Дата рождения:</p>
+              <input type="date" name="calendar"  value="1980-01-01" max="2005-01-01" min="1940-01-01" id="brdate">
+              <hr>
+            </div>
+
+            <div class="question">
+              <div class="health-issue">
+                <p>Имеется ли у Вас хроническое и/или врожденное заболевание?</p>
+                <div class="answer">
+                  <div class="choice">
+                    <input type="radio" name="chronic-diseases" value="yes">
+                    <p>Да</p>
+                  </div>
+                  <div class="choice">
+                    <input type="radio" name="chronic-diseases" value="no">
+                    <p>Нет</p>
+                  </div>
+                  <div class="choice">
+                    <input type="radio" name="chronic-diseases" value="difficult">
+                    <p>Затрудняюсь ответить</p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+            </div>
+
+          </div> 
+
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h3>Оценка факторов риска развития болезней системы кровообращения</h3>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Был ли инфаркт миокарда, или инсульт, или внезапная смерть у Ваших близких родственников (у матери, отца или родных сестер, братьев)?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases1" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases1" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases1" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Есть ли у Вас привычка досаливать приготовленную пищу?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases2" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases2" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases2" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Есть ли у Вас избыточный вес?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases3" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases3" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases3" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Были ли у Вас эпизоды повышения артериального давления?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases4" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases4" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases4" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Часто ли Вы испытываете стрессы?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases5" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases5" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases5" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Было ли у Вас ранее выявлено повышение уровня холестерина в крови?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases6" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases6" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases6" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Отмечаются ли у Вас потери сознания?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases7" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases7" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases7" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Беспокоит ли Вас ощущение перебоев и пауз в работе сердца, и (или) очень быстрое биение сердца, и (или) чрезвычайно медленное биение сердца?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="heart-diseases8" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="heart-diseases8" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="heart-diseases8" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h3>Оценка факторов риска развития сахарного диабета 2 типа</h3>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Вы тратите на физическую активность менее 30 минут в день?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases1" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases1" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="diabetes-diseases1" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Вы ежедневно употребляете менее 400 грамм фруктов и овощей (не считая картофеля)?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases2" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases2" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="diabetes-diseases2" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Выявляли ли у Вас когда-либо повышение
+                уровня глюкозы в крови (при проведении
+                диспансеризации, во время болезни, в период
+                беременности)?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases3" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases3" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="diabetes-diseases3" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Был ли сахарный диабет у Ваших близких
+                родственников (у матери, отца или родных
+                сестер, братьев)?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases4" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="diabetes-diseases4" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="diabetes-diseases4" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h3>Оценка факторов риска развития онкологических заболеваний</h3>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Отмечаете ли Вы снижение массы тела
+                за последние 6 месяцев без очевидных на то
+                причин?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases1" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases1" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases1" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Отмечаете ли Вы повышение температуры тела без видимых на то причин?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases2" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases2" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases2" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Имеются ли у Вас новообразования на коже,
+                губах и в полости рта, в области наружных
+                половых органов или увеличенные
+                лимфатические узлы?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases3" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases3" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases3" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Имеются ли у Вас незаживающие язвы, эрозии
+                на коже, губах и в полости рта, в области
+                наружных половых органов. Отмечается ли у Вас изменение размера, формы и цвета родинок?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases4" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases4" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases4" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Имеется ли у Вас упорный сухой кашель или
+                кашель с прожилками крови в мокроте?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases5" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases5" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases5" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Стали ли Вас беспокоить боли в животе,
+                затруднение глотания, отвращение к еде,
+                затруднение мочеиспускания, кровянистые
+                выделения, не наблюдаемые ранее?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases6" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases6" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases6" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Имеется ли у Вас уплотнение, припухлость,
+                изменение формы молочных желез, выделения
+                из соска?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases7" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases7" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases7" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Были ли у Ваших близких родственников
+                (у матери, отца или родных сестер, братьев)
+                онкологические заболевания?                
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases8" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="oncological-diseases8" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="oncological-diseases8" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h3>Оценка факторов риска развития хронич. обструктивных заболеваний легких</h3>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Курите ли Вы?</p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="lung-diseases1" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="lung-diseases1" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="lung-diseases1" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Ощущаете ли Вы в груди посторонний звук
+                (хрипы, свист, другие звуки)?
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="lung-diseases2" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="lung-diseases2" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="lung-diseases2" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <p>Имеется ли у Вас длительный (более двух
+                недель) кашель с отхождением густой или вязкой мокроты? 
+              </p>
+              <div class="answer">
+                <div class="choice">
+                  <input type="radio" name="lung-diseases3" value="yes">
+                  <p>Да</p>
+                </div>
+                <div class="choice">
+                  <input type="radio" name="lung-diseases3" value="no">
+                  <p>Нет</p>
+              </div>
+              <div class="choice">
+                <input type="radio" name="lung-diseases3" value="difficult">
+                <p>Затрудняюсь ответить</p>
+              </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+      </section>
+
+      <section class="questions">
+        <div class="container">
+          <h3>Дополнительно</h3>
+
+          <div class="question">
+              <p>В случае наличия жалоб или симптомов, которые не указаны в анкете, проинформируйте об этом медицинского работника</p>
+              <textarea style="width:90%; height:100px;" placeholder="Иные жалобы" name="extra-diseases1" id="extra-diseases"></textarea>
+            <hr>
+          </div>
+
+          <div class="question">
+            <div class="health-issue">
+              <div class="answer">
+                <div class="choice">
+                  <input type="checkbox" name="extra-diseases2" class="confirmation">
+                  <p>Подтверждаю правильность
+                    предоставляемых ответов</p>
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="question">
+                <div class="choice">
+                  <input type="submit" id="check" value="Результат">
+                </div>
+              
+            <hr>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="result">
+        
+          <div class="container">
+            <div id="printscreen">
+            <h3>Результат</h3>
+
+              <span style="font-weight: 600;">Дата проведения анкетирования:</span>
+              <p id="today-date"></p>
+
+              <span style="font-weight: 600;">Отделение:</span>
+              <p id="result-branch"></p>
+
+              <span style="font-weight: 600;">Фамилия, собственное имя, отчество (если таковое имеется):</span>
+              <p id="result-FIO"></p>
+
+              <span style="font-weight: 600;">Дата рождения:</span>
+              <p id="result-brdate"></p>
+
+              <p style="font-weight: 600;">Рекомендуемые обследования:</p>
+              <p id="blood-test"></p>
+              <p id="cholesterol"></p>
+              <p id="glucose"></p>
+              <p id="antigen"></p>
+              <p id="hidden-blood"></p>
+              <p id="fluorography"></p>
+              <p id="for-women"></p>
+              <p id="urology"></p>
+              <p id="blood-circulation"></p>
+              <p>Консультирование пациента по медицинской профилактике, здоровому образу жизни, вакцинации.</p>
+              <p style="font-weight: 600;">Иные жалобы:</p>
+              <p id="extra"></p>
+                   
+          </div>
+          <input type="submit" id="print" value="Сохранить">
+        </div> 
+      </section>
+
+
+    </main>
+
+    <footer class="footer">
+      <a href="https://rs.school/js/"><img src="img/RS.svg" alt="RS"></a>
+      <p>2023</p>
+      <a href="https://github.com/prigozhaya"><img src="img/gitr.svg" alt="github"></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

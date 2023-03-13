@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(202, 202, 202);
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, h3 {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header p {
+    font-size: 20px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(130, 130, 130) 0px 5px 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.questions, .result {
+    margin-top: 15px;
+}
+.question {
+    padding: 20px 10px 10px;
+}
+#FIO {
+    width: 80%;
+    height: 25px;
+}
+.health-issue {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.answer, .choice {
+    display: flex;
+}
+.choice {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.confirmation {
+    margin-right: 15px;
+}
+#check {
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 144, 255);
+    min-width: 200px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
